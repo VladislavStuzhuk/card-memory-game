@@ -23,7 +23,8 @@ export default class Card{
   generateCard(){
     this._element = this._getTemplate();
     this._cardValue = this._element.querySelector('.card__value') 
-    this._cardValue.textContent = this._value;
+    this._cardValue.src = this._value;
+    this._element.setAttribute('src',this._value);
     this._element.id = 'card'+ this._id;
     this._setEventListeners();
     return this._element;

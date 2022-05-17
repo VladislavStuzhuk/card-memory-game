@@ -1,4 +1,9 @@
 .card__value{
-  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
   display: none;
 }
