@@ -10,7 +10,7 @@ arr.sort(() => Math.random() - 0.5);;
 for (let i = 0; i < 20; i++){
   const card = new Card(arr[i],i+1, (data) =>{
     const tempCard = document.querySelector("#"+data);
-    if (handlArr.length < 3){
+    if (handlArr.length < 2){
       card.showValue();
       console.log(tempCard)
       if (!handlArr.includes(tempCard)) handlArr.push(tempCard)
