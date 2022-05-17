@@ -1,0 +1,10 @@
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/game/__container/game__container.css);
+@import url(../blocks/game/game.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/_solved/card_solved.css);
+@import url(../blocks/card/card__value/card__value.css);
+@import url(../blocks/game/__nav/game__nav.css);
+@import url(../blocks/game/__start-button/game__start-button.css)

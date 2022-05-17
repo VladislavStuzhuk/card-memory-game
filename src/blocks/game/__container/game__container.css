@@ -1,0 +1,13 @@
+.game__container{
+  background-color: #FAFAFA;
+  width: 1032px;
+  min-height: 456px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  
+}
